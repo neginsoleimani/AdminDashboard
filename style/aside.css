@@ -87,7 +87,7 @@ aside .sidebar .message-count{
     background-color: var(--color-danger);
     color: white;
     padding: 2px 10px;
-    font-size: 11px;
+    font-size: 12px;
     border-radius: var(--border-radius-1);
     font-weight: bold;
 }
