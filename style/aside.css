@@ -25,6 +25,7 @@ aside .close {
 
 #close-btn{
     color: var(--color-dark);
+    display: none;
 }
 
 aside .sidebar {

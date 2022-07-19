@@ -145,6 +145,7 @@
     justify-content: center;
 }
 
+
 .right .sales-analytics .add-product div {
     display: flex;
     align-items: center;
@@ -152,5 +153,7 @@
 }
 
 .right .sales-analytics .add-product div h3{
+    color: var(--color-primary);
     font-weight: bold;
 }
+
