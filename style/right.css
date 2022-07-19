@@ -12,8 +12,13 @@
     display: none;
 }
 
+.right .top button span{
+    color: var(--color-dark);
+}
+
 .right .theme-toggler {
     background-color: var(--color-light);
+    color: var(--color-dark);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,6 +90,10 @@
 
 .right .sales-analytics h2 {
     margin-bottom: 0.8rem;
+}
+
+.right .sales-analytics h3{
+    color: var(--color-dark);
 }
 
 .right .sales-analytics .item {

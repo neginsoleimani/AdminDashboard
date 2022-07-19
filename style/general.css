@@ -21,7 +21,18 @@
 
     --card-padding: 1.8rem;
     --padding: 1.2rem;
-    --box-shadow:0 2rem 3rem var(--color-light);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+
+/* DARK THEME VARIABLES */
+.dark-theme-variables {
+    --color-background:#181a1e;
+    --color-white:#202528;
+    --color-dark:#edeffd;
+    --color-dark-variant:#a3bdcc;
+    --color-light:rgba(0 , 0 , 0 ,0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
 * {
@@ -50,7 +61,7 @@ body {
     overflow-x: hidden;
 }
 
-.container{
+.container {
     display: grid;
     width: 96%;
     margin: 0 auto;
@@ -72,15 +83,19 @@ img {
 h1 {
     font-weight: 800;
     font-size: 1.8rem;
+    color: var(--color-dark);
 }
 
 h2 {
     font-size: 1.4rem;
+    color: var(--color-dark);
 }
+
 
 h3 {
     font-size: 0.87rem;
 }
+
 
 h4 {
     font-size: 0.8rem;

@@ -23,6 +23,10 @@ aside .close {
     display: none;
 }
 
+#close-btn{
+    color: var(--color-dark);
+}
+
 aside .sidebar {
     display: flex;
     flex-direction: column;

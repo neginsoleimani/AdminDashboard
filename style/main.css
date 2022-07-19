@@ -61,6 +61,7 @@ main .insights>div .middle {
 main .insights h3 {
     margin: 1rem 0 0.6rem;
     font-size: 1rem;
+    color: var(--color-dark);
 }
 
 main .insights .progress {
@@ -136,8 +137,13 @@ main .recent-orders table {
     transition: all 300ms ease;
 }
 
+
+
 main .recent-orders table:hover {
     box-shadow: none;
+}
+main .recent-orders thead tr{
+    color: var(--color-dark);
 }
 
 main table tbody td {
